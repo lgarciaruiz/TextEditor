@@ -1,0 +1,29 @@
+
+
+.background{ 
+	-fx-background-color: #37383c;
+	-fx-text-background-color:#efeae1;
+	-fx-default-button: #ffd152;
+}
+
+
+
+.myDialog{
+    -fx-background-color: #ffd152;
+}
+.myDialog > *.button-bar > *.container{
+	-fx-font-size: 14px;
+    -fx-background-color: #ffd152;
+}
+.myDialog > *.label.content{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+.myDialog:header *.header-panel{
+    -fx-background-color: #37383c;
+}
+.myDialog:header *.header-panel *.label{
+    -fx-font-size: 30 px;
+    -fx-font-style: italic;
+    -fx-text-fill: #FAFAFA;
+}
